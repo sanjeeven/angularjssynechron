@@ -1,2 +1,2 @@
 # ng-hyd
-Synechron Hyderabad Training
+Synechron Hyderabad AngularJS Training
