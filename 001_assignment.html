@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Assignment</title>
+	<script>
+		window.onload = function(){
+			var src = document.getElementsByTagName("input")[0];
+			// src.addEventListener("change",changeIt);
+			src.addEventListener("keyup",changeIt);
+			src.addEventListener("keydown",changeIt);
+		}
+		function changeIt(evt){
+			document
+			.getElementsByTagName("h1")[0]
+			.innerHTML = evt.target.value;
+		}
+	</script>
+</head>
+<body>
+	<input/>
+	<h1></h1>
+</body>
+</html>
